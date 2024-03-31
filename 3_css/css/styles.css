@@ -1,0 +1,532 @@
+/* 4 - External CSS */
+body{
+    padding-bottom: 500px;
+}
+
+h3{
+    color: green;
+}
+/*
+p{
+    color: blueviolet;
+}
+*/
+/*Um comentário*/
+/*Mais outro comentário*/
+/*Mais um comentário*/
+
+/* 8 - Classes */
+.paragraph{
+    background-color: #000;
+    color: aqua;
+    padding: 5px;
+}
+
+#exclusive-title{
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+    font-size: 40px;
+}
+
+#some-title{
+    border-bottom: 6px solid red;
+}
+
+.titulo{
+    border-bottom: 3px solid blue;
+}
+/*
+h1{
+    border-bottom: 2px solid green;
+}
+*/
+
+/* Nome */
+
+.name-colors{
+    color: crimson;
+}
+
+.hex{
+    color: #55e300;
+}
+
+.hex-2{
+    color: #ab11cd;
+}
+
+/* Mais sobre hex */
+
+.simple-hex{
+    color: #aaa;
+}
+
+.simple-hex2{
+    color: #11dd33;
+}
+
+/* RGB */
+.rgb{
+    color: rgb(255, 0, 0);
+}
+
+.mixed-rgb{
+    color: rgb(100, 90, 15);
+}
+
+/* RGBA */
+.rgba{
+    color: rgba(150, 100, 50, 0.1);
+}
+
+/* HLS */
+.hsl{
+    color: hsl(100, 50%, 50%);
+}
+
+.hsl-2{
+    color: hsl(199, 56%, 26%);
+}
+
+/* Background - color */
+
+.bg{
+    background-color: #000;
+    color: rgb(100, 90, 15);
+}
+
+.bg-2{
+    background-color: blue;
+    color: rgba(150, 100, 50, 1.5);
+}
+
+.bg-opacity{
+    background-color: #aaa;
+    color: #000;
+    opacity: 0.2;
+}
+
+.bg-opacity-2{
+    background-color: #1d1b1d;
+    color: #120035;
+    opacity: 0.8;
+}
+
+/* RGBA opacity */
+
+.rgba-opacity{
+    background-color: rgba(90, 120, 20, 0.3);
+    color:#000
+}
+
+/* Background-image */
+
+.bg-image{
+    background-image: url("../img/85393.png");
+    padding: 10px;
+    color: white
+}
+
+/* Centralizando imagem de background */
+
+.not-centered-bg, .centered-bg{
+    height: 400px;
+    width: 400px;
+    background-image: url("../img/111719.jpg");
+}
+
+.centered-bg{
+    background-position: center;
+    background-size: cover;
+}
+
+/* Altura e largura */
+
+.height-width{
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+
+.height-width-2{
+    height: 300px;
+    background-color: rgb(75, 64, 64);
+}
+
+/* Padding */
+
+.without-padding, .padding{
+    background-color: #1d1b1d;
+    color: white;
+}
+
+.padding{
+    background-color: #5f5e5f;
+    color: white;
+    padding: 10px;
+}
+
+.padding-individual{
+    background-color: #1d1b1d;
+    color: white;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+/* Shorthand padding */
+
+.shorthand-padding{
+    background-color: #222;
+    color: white;
+    padding: 10px 20px 30px 40px;
+}
+
+.shorthand-padding-2{
+    background-color: rgb(138, 135, 135);
+    color: white;
+    padding: 10px 20px;
+}
+
+/* Padding com width */
+.withot-border-box{
+    background-color: #222;
+    color: white;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box{
+    background-color: #444;
+    color: white;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* Border */
+.border{
+    border: 5px solid red;
+    padding: 10px;
+}
+
+.border-2{
+    border: 2px dotted rgb(141, 59, 59);
+    padding: 10px;
+}
+
+/* Bordas individuais */
+.border-left{
+    background-color: #444;
+    color: #000;
+    border-left: 2px solid red;
+    padding: 10px;
+}
+
+.border-botton{
+    background-color: #444;
+    color: #000;
+    border-bottom: 5px double red;
+    padding: 10px;
+}
+
+/* Border-radious */
+.border-radious{
+    background-color: #000;
+    color: blue;
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.border-radious-2{
+    background-color: #000;
+    color: blue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Margem */
+
+.margin{
+    margin: 10px;
+    background-color: #1d1b1d;    
+}
+
+.margin-left{
+    margin-left: 10px;
+    background-color: #222;
+    padding: 10px;
+}
+
+.margin-shorthand{
+    margin: 10px 20px 30px 40px;
+    background-color: #444;
+}
+
+/* Box model */
+.box-model{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+/* Desafio 3 */
+
+#box-model-challenge{
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid blueviolet;
+    outline: 3px solid red;
+    background-color: #120035;
+}
+
+.challenge-title{
+    background-color: #000;
+    color: white;
+    border: none;
+}
+
+/* Text-align */
+.text-align{
+    text-align: right;
+}
+
+.container-text{
+    text-align: center;
+    width: 300px;
+    border: 1px solid black;
+}
+
+/* Text decoration */
+
+.underline{
+    text-decoration: underline;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.without-underline{
+    text-decoration: none;
+}
+
+/* Text transform */
+
+.upper{
+    text-transform: uppercase;
+}
+
+.lower{
+    text-transform: lowercase;
+}
+
+/* Latter spacing */
+
+.spacing{
+    letter-spacing: 5px;
+}
+
+/* Font-family */
+
+.serif{
+    font-family: georgia;
+}
+
+.sans-serif{
+    font-family: sans-serif;
+}
+
+.monosppace{
+    font-family: monospace;
+}
+
+.cursive{
+    font-family: cursive;
+}
+
+.fantasy{
+    font-family: fantasy;
+}
+
+/* fonte- style */
+
+.italico{
+    font-style: italic;
+}
+
+.obliquo{
+    font-style: oblique;
+}
+
+/* fonte weight */
+
+.thin, .bold, .bolder{
+    font-family: helvetica;
+}
+
+.thin{
+    font-weight: 100px;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.bolder{
+    font-weight: 900;
+}
+
+/* fonte-size */
+
+.small{
+    font-size: 6px;
+}
+
+.large{
+    font-size: 60px;
+}
+
+/* display */
+.inline-block{
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    color: white;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block{
+    background-color: #120035;
+    color: white;
+    margin: 10px;
+    display: block;
+    padding: 10px;
+}
+
+/* Static */
+
+.static{
+    position: static;
+    background-color: #000;
+    color: white;
+    width: 300px;
+    height: 200px;
+}
+
+/* Relative */
+
+.relative{
+    position: relative;
+    background-color: rgb(126, 16, 199);
+    color: white;
+    width:100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+}
+
+.absolute{
+    position: absolute;
+    background-color: rgb(126, 16, 199);
+    color: white;
+    width:200px;
+    height: 300px;
+    top: 2px;
+    right: 10px;
+}
+
+/* Relative com Absolute */
+.relative-absolute{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute-1, .absolute-2{
+    background-color: #444;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin: 0px 0px;
+}
+
+.absolute-1{
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-2{
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Fixed */
+.fixed{
+    width: 100px;
+    height: 100px;
+    background-color: #222;
+    color: white;
+    border: 1px solid red;
+    position: fixed;
+    top: 0px;
+    right: 10px;
+}
+
+.sticky{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(117, 2, 2);
+    color: white;
+    border: 1px solid rgb(85, 83, 83);
+    position: sticky;
+    top: 0px;
+}
+
+/* z-index */
+.relative-container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    position: relative;
+    margin-top: 120px;
+}
+
+.absolute-3, .absolute-4, .absolute-5{
+    width: 50px;
+    height: 50px;
+    background-color: #1d1b1d;
+    top: 0px;
+}
+
+.absolute-3{
+    background-color: #1d1b1d;
+    top: 0px;
+    position: absolute;
+    z-index: 3;
+}
+
+.absolute-4{
+    background-color: #222;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    z-index: 2;
+}
+
+.absolute-5{
+    background-color: #333;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    z-index: 1;
+}
